@@ -1,4 +1,13 @@
-// Node Class
+public class Linkedlist_Basic {
+
+    private void insertAtBeginning(int i) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private void display() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+    // Node Class
 class Node {
 
     int data;
@@ -44,7 +53,7 @@ public class Linklist {
 
     public static void main(String[] args) {
 
-        Linkedlist list = new Linkedlist();
+        Linkedlist_Basic list = new Linkedlist_Basic();
 
         list.insertAtBeginning(10);
         list.insertAtBeginning(20);
@@ -54,4 +63,6 @@ public class Linklist {
 
         
     }
+}
+
 }
