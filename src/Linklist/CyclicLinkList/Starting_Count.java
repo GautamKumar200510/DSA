@@ -1,5 +1,3 @@
-
-
 class SearchValue {
 
     Node head;
